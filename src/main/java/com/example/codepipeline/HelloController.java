@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String root() {
-        return "Hi This Page Before Modifiyed";
+        return "Hi This Page Before Modifiyed\n니마음대로해라_선생님께서말씀하셨다.";
     }
 
 
